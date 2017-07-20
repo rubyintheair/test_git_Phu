@@ -1,0 +1,47 @@
+.list-item {
+  background-color: white; 
+  margin: 5px; 
+  padding: 5px;
+  border: 2px solid #cc0066;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+  font-size: 12px;
+  padding: 10px 5px
+}
+
+.list-box {
+  background-color: rgb(255, 204, 255);
+  padding: 10px 5px 5px 5px;
+  width: 300px;
+  border-radius: 3px;
+}
+
+input.add-item {
+  background-color: white; 
+  margin: 5px; 
+  border: 2px solid #cc0066;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+  font-size: 12px;
+  padding: 10px 5px;
+  width: 97%;
+}
+
+button {
+  float: right;
+  border: 1px solid #ffccff;
+  background-color:#ff66cc;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff99ff;
+    color: back;}
+
+.done {
+  text-decoration: line-through;
+}
+
+.done button {
+  opacity: 0.6;
+}

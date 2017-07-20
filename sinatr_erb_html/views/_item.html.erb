@@ -1,0 +1,5 @@
+<%if item[:done]%>
+  <div class="list-item done"><%=item[:name]%><button type="button">Undo</button></div>
+<%else%>
+  <div class="list-item"><%=item[:name]%><button type="button">Done</button></div>
+<%end%>

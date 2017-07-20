@@ -1,0 +1,13 @@
+body { font-family: sans-serif; }
+#heading { color: rgb(255, 0, 102); }
+
+footer {
+  position:fixed;
+  right: 500px;
+  text-align: center;
+  bottom:0px;
+}
+
+
+
+
